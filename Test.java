@@ -19,7 +19,7 @@ import com.alibaba.fastjson.JSONObject;
 
 @SuppressWarnings("deprecation")
 public class Test {
-
+	//多打注释
     public static void main(String[] args) throws Exception {
         //1  post method
         HttpClient client = new DefaultHttpClient();
@@ -56,5 +56,4 @@ public class Test {
         resp.close();
         httpclient.close();
     }
-
 }
